@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+ #nav-logo{
+  font-size: 20px;
+}
+
+.nav-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3A3A3A;
+}
+.right-elements{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 600;
+   }
+   .nav-img{
+    height: 30px;
+    width: 30px;
+   }
+.Button-1{
+    padding: 8px 15px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.banner-container{
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position-x: 910px;
+    background-position-y: 140px;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-head{
+    font-size: 55px;
+    color: #3A3A3A;
+}
+.banner-paragraph{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.banner-all-img{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+        margin-right: 120px;
+    }
+    .banner-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-head{
+        font-size: 25px;
+      
+    }
+    .banner-paragraph{
+        font-size: 10px;
+    }
+    .Button-1{
+        margin-left: 50px;
+    }
+    .banner-all-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+}
