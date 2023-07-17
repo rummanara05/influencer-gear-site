@@ -113,4 +113,8 @@ font-family: 'Work Sans', sans-serif;
         grid-template-columns: repeat(4,1fr);
         gap: 10px;
     }
+    .body-all-img{
+        display: flex;
+        flex-direction: column;
+    }
 }
